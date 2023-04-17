@@ -8,7 +8,7 @@ import Slider from './components/Slider'
 
 export default function Home() {
   return (
-    <main className="w-w80 mx-auto font-mon">
+    <main className="w-full h-screen overflow-x-hidden font-mon bg-colorWhite">
       <Header />
       <LivingCost />
       <Properties />
